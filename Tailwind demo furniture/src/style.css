@@ -78,9 +78,9 @@
     .animate {
         @apply transition duration-200 ease-in-out;
     }
-    .brand:checked + span {
-        @apply border-blue-700;
-    }
+    /* .brand:checked + span {
+        @apply border-blue-700;  
+    } */
     .brand:checked + span svg {
         @apply opacity-100;
     }

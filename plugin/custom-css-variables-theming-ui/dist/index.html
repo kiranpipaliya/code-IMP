@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Custom CSS Variables Theming UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.4/tailwind.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="absolute bg-white left-0 p-4 right-0 text-grey">
+                <div class="flex items-center">
+                    <h3 class="font-bold mr-4 text-sm">Dynamic Color</h3>
+                    <div class="flex items-center">
+                        <div class="flex items-center mr-3">
+                            <label class="text-sm mr-2">Background:</label>
+                            <input class="cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker"
+                                   type="color" data-id="bg-color"
+                                   name="Background">
+                        </div>
+                        <div class="flex items-center">
+                            <label class="text-sm mr-2">Color:</label>
+                            <input class="cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker"
+                                   type="color" data-id="color" name="Color">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<section class="hero h-screen">
+	<div class="h-full flex justify-center items-center">
+			<h1 class="text-5xl font-bold">This is main title</h1>
+	</div>
+</section>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
